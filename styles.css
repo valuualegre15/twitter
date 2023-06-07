@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    position: relative;
+    width: 99%;
+    height: 100vh;
+    background: #f4f8fb;
+    display: flex;
+}
+
+header aside{
+    width: 35%;
+    height: 100%;
+    background: #fff;
+    padding: 15px 0px 15px 30px;
+}
+
+header section{
+    position: relative;
+    width: 1600px;
+    height: 100%;
+    border: 1px solid rgba(194, 194, 194, 0.37);
+}
+
+header aside .logo{
+    font-size: 30px;
+    color: #1ca1f1;
+}
+
+header aside ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+header aside ul li{
+    padding: 10px 0px;
+    margin-top: 1px;
+}
+
+header aside ul li a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    transition: .3s linear;
+}
+
+header aside ul li a:hover{
+    color: #1ca1f1;
+}
+
+header aside ul li a i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+header aside ul li:nth-child(1){
+    border-right: 3px solid #1ca1f1;
+}
+
+header aside ul li:nth-child(1) a{
+    color: #1ca1f1;
+}
+
+header aside ul li:nth-child(1) a{
+    color: #1ca1f1;
+}
+
+header aside button{
+    margin-top: 10px;
+    padding: 10px 50px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #1ca1f1;
+    transition: .3s linear;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+header aside button:hover{
+    background: #1c9ff180;
+}
+
+header section nav{
+    width: 66%;
+    border: 1px solid rgba(0, 0, 0, 0.041);
+    height:100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    margin-top: -50px;
+}
+
+header section nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+  
+}
+
+header section nav ul li{
+    padding: 3px 25px 3px 0px;
+}
+
+header section nav ul li a{
+    text-decoration: none;
+    font-size: 40spx;
+    font-weight: 600;
+    color: #000000c0;
+    transition: .3s linear;
+}
+
+header section nav ul li a:hover{
+    color: gray;
+}
+
+.search_bar{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f8fb;
+    padding: 8px 15px;
+    border-radius: 40px;
+    margin-left: 700px;
+    border: 1px solid rgba(128, 128, 128, 0.315);
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+.search_bar input{
+    width: 90%;
+    padding: 3px 15px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    background: none;
+}
+
+
+.perfil{
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    margin-top: 1px;
+    
+}
+
+.user h4{
+    font-size: 15px;
+    color:rgba(0, 0, 0, 0.863);
+    margin-top: 60px;
+}
+
+.user span{
+    font-size: 13px;
+}
+
+.home{
+    margin-bottom: 490px;
+    margin-right: 73px;
+}
+
+.about{
+    margin-right: 350px;
+    margin-bottom: 400px;    
+}
+
+.help{
+    margin-left: -600px;
+    margin-bottom: 420px;
+}
+
+.lista{
+    margin-right: 160px;
+}
+
+hr{
+    border: 0.1px solid rgba(128, 128, 128, 0.075);
+    margin-top: -508px;
+    width: 60%;
+}
+
+nav ul li:nth-child(2){
+    border-bottom: 3px solid #1ca1f1;
+    margin-top: 20px;
+}
+
+.container{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.every{
+    padding: 2px 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(182, 179, 179) ;
+    outline: none;
+    color:#1ca1f1;
+    background: #fff;
+    transition: .3s linear;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.encuesta{
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+}
+
+
+.perfil-two{
+    width: 50px;
+    height: 45px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    margin-top: 1px;
+    margin-left: 0px;
+}
+
+.world{
+    color: #1ca1f1;
+    margin-left: 110px;
+}
+.line{
+    border: 0.1px solid rgba(128, 128, 128, 0.075);
+    margin-top: 15px;
+    width: 40%;
+    margin-left: 100px;
+}
+
+.emoticones{
+    margin-left: 120px;
+    margin-top: 15px;
+}
+
+.emoji-img{
+   margin-right: 20px;
+   color:#1ca1f1 ;
+}
+
+.emoji-list{
+    margin-right: 20px;
+    color: #1ca1f1;
+}
+
+.emoji-happy{
+    margin-right: 20px;
+    color: #1ca1f1;
+}
+
+.emoji-ubi{
+    color: #1c9ff167;
+}
+
+.btn-tw{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+    margin-left:200px;
+    background: #1ca1f1;
+    transition: .3s linear;
+    cursor: pointer;
+}
+
+
+.line-two{
+    
+   border: 0.1px solid rgba(128, 128, 128, 0.11);
+   margin-top: 5px;
+   width: 67.8%;
+   margin-left: -120px;
+}
+
+.container-three{
+    float: right;
+    border: 1px solid rgba(128, 128, 128, 0.26);
+    margin-top: 50px;
+    margin-left: 360px;
+    padding: 10px 90px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.notices{
+    margin-bottom: 30px;
+}
+
+.foryou{
+    margin-left: -50px;
+    margin-bottom: 30px;
+}
+
+.trend{
+    margin-left: -45px;
+    font-size: 13px;
+    color: gray;
+}
+
+
+.trending{
+    margin-left: -45px;
+}
+
+.Trends{
+    margin-left: -45px;
+    font-size: 13px;
+    color: gray;
+}
+
+.perfil-four{
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    margin: 20px;
+    float: left;
+    margin-top: 0px;
+}
+
+.coments{
+    margin-top: 0;
+}
+
+.coment{
+    font-size:13px;
+    color: #00000071;
+}
+
+.container-four{
+    margin-top: 20px;
+}
+
+.noticias{
+    margin-left: 90px;
+    margin-top: -5px;
+}
+
+.tw-img{
+    width: 450px;
+    margin-left: 90px;
+    border-radius: 20px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.icon-msg{
+    color: #000000b2;
+    margin-left: 100px;
+    margin-right: 40px; 
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#msg{
+    margin-right: 10px;
+}
+
+.icon-rt{
+    color: #000000b2;
+    margin-left: 40px;
+    margin-right: 40px; 
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.icon-fav{
+    color: #000000b2;
+    margin-left: 60px;
+    margin-right: 40px; 
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.icon-share{
+    color: #000000b2;
+    margin-left: 30px;
+    margin-right: 40px; 
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.link-three{
+    border: 0.1px solid rgba(128, 128, 128, 0.11);
+   margin-top: 5px;
+   width: 67.8%;
+}
